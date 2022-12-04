@@ -3,6 +3,7 @@ import './App.css';
 import ComponenteClase from './components/ComponenteClase';
 import ComponenteFuncion from './components/ComponenteFuncion';
 import Estado from './components/Estado';
+import Eventos from './components/Eventos';
 import Propiedades from './components/Propiedades';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
@@ -51,6 +52,8 @@ function App() {
 					<RenderizadoCondicional></RenderizadoCondicional>
 					<hr></hr>
 					<RenderizadoElementos></RenderizadoElementos>
+					<hr></hr>
+					<Eventos></Eventos>
 				</section>
 			</header>
 		</div>
