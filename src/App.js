@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ComponenteClase from './components/ComponenteClase';
 import ComponenteFuncion from './components/ComponenteFuncion';
+import ComunicacionComponentes from './components/ComunicacionComponentes';
 import Estado from './components/Estado';
 import { EventosES6, EventosES7, MasSobreEventos } from './components/EventosES6';
 import Propiedades from './components/Propiedades';
@@ -58,6 +59,8 @@ function App() {
 					<EventosES7></EventosES7>
 					<hr></hr>
 					<MasSobreEventos></MasSobreEventos>
+					<hr></hr>
+					<ComunicacionComponentes></ComunicacionComponentes>
 				</section>
 			</header>
 		</div>
