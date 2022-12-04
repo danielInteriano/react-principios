@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import ComponenteClase from './components/ComponenteClase';
 import ComponenteFuncion from './components/ComponenteFuncion';
+import Estado from './components/Estado';
 import Propiedades from './components/Propiedades';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
 import logo from './logo.svg';
 
 function App() {
@@ -42,6 +44,10 @@ function App() {
 							<ComponenteFuncion msg="Este es un componente pasado como props"></ComponenteFuncion>
 						}
 					></Propiedades>
+					<hr></hr>
+					<Estado></Estado>
+					<hr></hr>
+					<RenderizadoCondicional></RenderizadoCondicional>
 				</section>
 			</header>
 		</div>
