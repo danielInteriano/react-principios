@@ -1,15 +1,6 @@
 import React from 'react';
 import './App.css';
-import AjaxApis from './components/AjaxApis';
-import CicloVida from './components/CicloVida';
-import ComponenteClase from './components/ComponenteClase';
-import ComponenteFuncion from './components/ComponenteFuncion';
-import ComunicacionComponentes from './components/ComunicacionComponentes';
-import Estado from './components/Estado';
-import { EventosES6, EventosES7, MasSobreEventos } from './components/EventosES6';
-import Propiedades from './components/Propiedades';
-import RenderizadoCondicional from './components/RenderizadoCondicional';
-import RenderizadoElementos from './components/RenderizadoElementos';
+import RelojHooks from './components/RelojHooks';
 import logo from './logo.svg';
 
 function App() {
@@ -33,7 +24,7 @@ function App() {
 					</a>
 				</section>
 				<section>
-					<ComponenteClase msg="Hola soy un componente de clase."></ComponenteClase>
+					{/* <ComponenteClase msg="Hola soy un componente de clase."></ComponenteClase>
 					<hr></hr>
 					<ComponenteFuncion msg="Este es un componente de función."></ComponenteFuncion>
 					<hr></hr>
@@ -67,6 +58,12 @@ function App() {
 					<CicloVida></CicloVida>
 					<hr></hr>
 					<AjaxApis></AjaxApis>
+					<hr></hr>
+					<ContadorHooks></ContadorHooks>
+					<hr></hr>
+					<ScrollHooks></ScrollHooks>
+					<hr></hr> */}
+					<RelojHooks></RelojHooks>
 				</section>
 			</header>
 		</div>
