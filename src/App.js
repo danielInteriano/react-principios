@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import AjaxApis from './components/AjaxApis';
+import CicloVida from './components/CicloVida';
 import ComponenteClase from './components/ComponenteClase';
 import ComponenteFuncion from './components/ComponenteFuncion';
 import ComunicacionComponentes from './components/ComunicacionComponentes';
@@ -61,6 +63,10 @@ function App() {
 					<MasSobreEventos></MasSobreEventos>
 					<hr></hr>
 					<ComunicacionComponentes></ComunicacionComponentes>
+					<hr></hr>
+					<CicloVida></CicloVida>
+					<hr></hr>
+					<AjaxApis></AjaxApis>
 				</section>
 			</header>
 		</div>
