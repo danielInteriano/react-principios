@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import RelojHooks from './components/RelojHooks';
+import Formularios from './components/Formularios';
 import logo from './logo.svg';
 
 function App() {
@@ -11,17 +11,6 @@ function App() {
 				<section>
 					<img src={logo} className="App-logo" alt="logo" />
 					<h1>Bienvenido {usuario}</h1>
-					<p>
-						Edit <code>src/App.js</code> and save to reload.
-					</p>
-					<a
-						className="App-link"
-						href="https://reactjs.org"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Learn React
-					</a>
 				</section>
 				<section>
 					{/* <ComponenteClase msg="Hola soy un componente de clase."></ComponenteClase>
@@ -62,8 +51,17 @@ function App() {
 					<ContadorHooks></ContadorHooks>
 					<hr></hr>
 					<ScrollHooks></ScrollHooks>
-					<hr></hr> */}
+					<hr></hr> 
 					<RelojHooks></RelojHooks>
+					<hr></hr>
+					<AjaxHooks></AjaxHooks>
+					<hr></hr>
+					<HooksPersonalizados></HooksPersonalizados>
+					<hr></hr>
+					<Referencias></Referencias>*/}
+					<hr></hr>
+					<Formularios></Formularios>
+					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 				</section>
 			</header>
 		</div>
