@@ -1,0 +1,12 @@
+$color-sass: #bf4080;
+$color-sass-opacidad: #bf408080;
+
+.bg-sass {
+	padding: 0.7rem;
+	background-color: $color-sass;
+	transition: background-color 0.5s ease-in-out;
+
+	&:hover {
+		background-color: $color-sass-opacidad;
+	}
+}

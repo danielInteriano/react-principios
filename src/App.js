@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Formularios from './components/Formularios';
+import Estilos from './components/Estilos';
 import logo from './logo.svg';
 
 function App() {
@@ -58,10 +58,15 @@ function App() {
 					<hr></hr>
 					<HooksPersonalizados></HooksPersonalizados>
 					<hr></hr>
-					<Referencias></Referencias>*/}
+					<Referencias></Referencias>
 					<hr></hr>
 					<Formularios></Formularios>
-					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+					<br/><br/><br/>*/}
+					<hr></hr>
+					<Estilos></Estilos>
+					<br />
+					<br />
+					<br />
 				</section>
 			</header>
 		</div>
