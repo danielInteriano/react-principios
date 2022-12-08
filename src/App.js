@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Estilos from './components/Estilos';
+import ComponentesEstilizados from './components/ComponentesEstilizados';
 import logo from './logo.svg';
 
 function App() {
@@ -61,9 +61,14 @@ function App() {
 					<Referencias></Referencias>
 					<hr></hr>
 					<Formularios></Formularios>
-					<br/><br/><br/>*/}
+					<br/><br/><br/>
 					<hr></hr>
 					<Estilos></Estilos>
+					<br />
+					<br />
+					<br />*/}
+					<hr></hr>
+					<ComponentesEstilizados></ComponentesEstilizados>
 					<br />
 					<br />
 					<br />
